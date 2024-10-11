@@ -1,0 +1,75 @@
+<!DOCTYPE html>  
+<html lang="ar">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>äãæĞÌ ÇáÊÈÑÚ</title>  
+    <style>  
+        body {  
+            font-family: Arial, sans-serif;  
+            margin: 20px;  
+            padding: 20px;  
+            border: 1px solid #ccc;  
+            border-radius: 5px;  
+            max-width: 400px;  
+        }  
+        label {  
+            margin-top: 10px;  
+            display: block;  
+        }  
+        input[type="text"], input[type="email"], input[type="number"], textarea {  
+            width: 100%;  
+            padding: 10px;  
+            margin-top: 5px;  
+            border: 1px solid #ccc;  
+            border-radius: 5px;  
+        }  
+        input[type="submit"] {  
+            margin-top: 15px;  
+            padding: 10px;  
+            background-color: #4CAF50;  
+            color: white;  
+            border: none;  
+            border-radius: 5px;  
+            cursor: pointer;  
+        }  
+        input[type="submit"]:hover {  
+            background-color: #45a049;  
+        }  
+    </style>  
+</head>  
+<body>  
+
+<h2>äãæĞÌ ÇáÊÈÑÚ</h2>  
+
+<form action="#" method="POST">  
+    <label for="name">ÇáÇÓã ÇáßÇãá:</label>  
+    <input type="text" id="name" name="name" required>  
+
+    <label for="address">ÇáÚäæÇä:</label>  
+    <input type="text" id="address" name="address">  
+
+    <label for="phone">ÑŞã ÇáåÇÊİ:</label>  
+    <input type="text" id="phone" name="phone">  
+
+    <label for="email">ÇáÈÑíÏ ÇáÅáßÊÑæäí:</label>  
+    <input type="email" id="email" name="email">  
+
+    <label for="donationType">äæÚ ÇáÊÈÑÚ:</label>  
+    <select id="donationType" name="donationType">  
+        <option value="money">ÊÈÑÚ äŞÏí</option>  
+        <option value="inKind">ÊÈÑÚ Úíäí</option>  
+        <option value="services">ÊÈÑÚ ÎÏãÇÊ</option>  
+    </select>  
+
+    <label for="amount">ãÈáÛ ÇáÊÈÑÚ (Åä æÌÏ):</label>  
+    <input type="number" id="amount" name="amount">  
+
+    <label for="comments">ãáÇÍÙÇÊ Ãæ ÊÚáíŞÇÊ ÅÖÇİíÉ:</label>  
+    <textarea id="comments" name="comments" rows="4"></textarea>  
+
+    <input type="submit" value="ÊŞÏíã ÇáÊÈÑÚ">  
+</form>  
+
+</body>  
+</html>
